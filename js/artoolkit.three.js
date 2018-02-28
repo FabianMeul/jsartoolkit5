@@ -258,7 +258,7 @@
 
 				}
 				if (obj) {
-					setProjectionMatrix(sub.matrix, ev.data.matrix);
+					setProjectionMatrix(obj.matrix, ev.data.matrix);
 					obj.visible = true;
 				}
 			});
